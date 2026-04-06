@@ -1,8 +1,8 @@
-# ðŸ‡¦ðŸ‡º AML/CTF Client Onboarding Skill â€” Australian Professional Services
+# AU AML/CTF Client Onboarding Skill -” Australian Professional Services
 
 A free, interactive Claude AI skill that walks Australian accountants, tax agents, lawyers, and professional service providers through AML/CTF client onboarding under the **Tranche 2 reforms** (effective 1 July 2026).
 
-**Built by [Pereira Consulting](https://pereiraconsulting.com.au)** â€” independent Australian tax advisory specialising in corporate tax, international tax, transfer pricing, and M&A for multinational enterprises.
+**Built by [Pereira Consulting](https://pereiraconsulting.com.au)** -” independent Australian tax advisory specialising in corporate tax, international tax, transfer pricing, and M&A for multinational enterprises.
 
 ---
 
@@ -10,13 +10,13 @@ A free, interactive Claude AI skill that walks Australian accountants, tax agent
 
 When you take on a new client, this skill guides you step-by-step through:
 
-1. **Designated Service Gateway Test** â€” determines whether your proposed services are "designated services" under Table 6 of the AML/CTF Act (most common accounting and tax services are _not_ captured)
-2. **KYC Collection** â€” collects customer identification information based on entity type (company, trust, partnership, individual)
-3. **ML/TF Risk Rating** â€” assigns a money laundering / terrorism financing risk rating based on customer, service, and delivery channel risk factors
-4. **CDD Level Determination** â€” applies the appropriate level of customer due diligence (simplified, standard, or enhanced)
-5. **Verification** â€” guides you through verifying identity information against independent sources
-6. **Sanctions & PEP Screening** â€” screens against the DFAT Consolidated List and checks for politically exposed persons
-7. **Documentation** â€” generates a complete onboarding record you can save to your client file
+1. **Designated Service Gateway Test** -” determines whether your proposed services are "designated services" under Table 6 of the AML/CTF Act (most common accounting and tax services are _not_ captured)
+2. **KYC Collection** -” collects customer identification information based on entity type (company, trust, partnership, individual)
+3. **ML/TF Risk Rating** -” assigns a money laundering / terrorism financing risk rating based on customer, service, and delivery channel risk factors
+4. **CDD Level Determination** -” applies the appropriate level of customer due diligence (simplified, standard, or enhanced)
+5. **Verification** -” guides you through verifying identity information against independent sources
+6. **Sanctions & PEP Screening** -” screens against the DFAT Consolidated List and checks for politically exposed persons
+7. **Documentation** -” generates a complete onboarding record you can save to your client file
 
 ---
 
@@ -24,9 +24,9 @@ When you take on a new client, this skill guides you step-by-step through:
 
 ### Claude.ai (Recommended for most users)
 
-1. Download this repository as a ZIP file (click the green **Code** button â†’ **Download ZIP**)
+1. Download this repository as a ZIP file (click the green **Code** button **Download ZIP**)
 2. Open [claude.ai](https://claude.ai)
-3. Go to **Settings** â†’ **Skills** (or **Customize** â†’ **Skills**)
+3. Go to **Settings** - **Skills** (or **Customize** â†’ **Skills**)
 4. Click **Upload** and select the ZIP file
 5. Toggle the skill **on**
 6. Start a new conversation and say **"new client onboarding"**
@@ -53,10 +53,10 @@ Claude Code will detect the skill automatically.
 
 Just tell Claude you want to onboard a new client. For example:
 
-- *"I have a new client â€” help me with AML/CTF onboarding"*
+- *"I have a new client -” help me with AML/CTF onboarding"*
 - *"New client KYC check"*
 - *"Run AML check for a new engagement"*
-- *"I need to take on Acme Pty Ltd â€” check if AML applies"*
+- *"I need to take on Acme Pty Ltd -” check if AML applies"*
 
 Claude will ask you about the services you're providing, determine whether they're designated services, and if so, walk you through the full CDD process interactively.
 
@@ -66,9 +66,9 @@ Claude will ask you about the services you're providing, determine whether they'
 
 ```
 aml-ctf-onboarding-au/
-â”œâ”€â”€ SKILL.md          # Main skill â€” all instructions and process steps
-â”œâ”€â”€ README.md         # This file
-â””â”€â”€ references/       # (Reserved for future reference materials)
+- SKILL.md          # Main skill -” all instructions and process steps
+- README.md         # This file
+- references/       # (Reserved for future reference materials)
 ```
 
 ---
@@ -101,13 +101,13 @@ The AML/CTF regime regulates **services**, not professions. AUSTRAC's guidance (
 - [Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (Cth)](https://www.legislation.gov.au/Series/C2006A00169)
 - [AML/CTF Amendment Act 2024](https://www.legislation.gov.au/C2024A00110/latest)
 - [AML/CTF Rules 2025](https://www.austrac.gov.au/amlctf-reform)
-- [AUSTRAC â€” Professional Services Guidance (Table 6)](https://www.austrac.gov.au/amlctf-reform/reforms-guidance/before-you-start/new-industries-and-services-be-regulated-reform/professional-services-reform)
-- [AUSTRAC â€” Summary of Obligations](https://www.austrac.gov.au/amlctf-reform/reforms-guidance/before-you-start/summary-obligations-reform)
+- [AUSTRAC -” Professional Services Guidance (Table 6)](https://www.austrac.gov.au/amlctf-reform/reforms-guidance/before-you-start/new-industries-and-services-be-regulated-reform/professional-services-reform)
+- [AUSTRAC -” Summary of Obligations](https://www.austrac.gov.au/amlctf-reform/reforms-guidance/before-you-start/summary-obligations-reform)
 - [DFAT Consolidated List (Sanctions)](https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list)
 
 ---
 
-## âš ï¸ Disclaimer
+## Disclaimer
 
 This skill is provided as **general guidance only** to assist Australian professional service providers in understanding their potential AML/CTF obligations under the Tranche 2 reforms.
 
