@@ -240,54 +240,123 @@ jurisdictions, foreign PEP involvement, no clear economic purpose, adverse media
 
 ## Step 4: Verify and Screen
 
-### Identity Verification
+**IMPORTANT â€” Use your web search capability to actively perform the verification
+and screening steps below.** Do not just tell the user to do these checks manually.
+Run the searches yourself during the conversation and report the results.
 
-Verify collected KYC information using reliable and independent data appropriate
-to the risk level.
+### 4A. Entity Verification
 
-**Companies:** ASIC company extract, ABN Lookup, foreign company register, commercial
-databases (Orbis, D&B).
+For Australian companies, **use web search now** to verify the entity details:
 
-**Individuals:** Primary photographic ID (passport or driver's licence) â€” in person,
-via video call, or through a digital ID verification provider (e.g. Scantek, GreenID).
+- **Search ABN Lookup** for the customer's ABN or ACN. Search for
+  "[ABN number] ABN Lookup" or go to abr.business.gov.au. Confirm the entity name,
+  ABN, ACN, GST registration status, and business location match what the customer
+  provided.
+- **Search ASIC** for the company name or ACN if you need to verify directors and
+  shareholding. Search for "[company name] ASIC" or "[ACN] ASIC company search".
 
-**Trusts:** Trust deed, ABN Lookup, ASIC extract for corporate trustees, ACNC register
-for charitable trusts.
+For foreign companies, search the relevant foreign company register (e.g.
+"[company name] ACRA Singapore" or "[company name] Companies House UK").
 
-**You do NOT need to keep copies of identity documents.** You must record: what steps
-you took, what identifying information was presented (e.g. passport number, issuing
-authority, expiry, name as shown), the date, and the outcome.
+For trusts, verify the ABN on ABN Lookup if one was provided, and confirm the
+trust type and trustee details match the trust deed information.
 
-### Sanctions Screening
+Report the verification results to the user, noting any discrepancies between
+what the customer provided and what the public records show.
 
-Screen the customer, all beneficial owners, representatives, and persons receiving
-the service against the **DFAT Consolidated List**:
+### 4B. Sanctions Screening â€” DFAT Consolidated List
 
+**Use web search now** to screen each identified person and entity against the
+DFAT Consolidated List. For each person and entity identified in Steps 2â€“3,
+run a search:
+
+- Search for "[person/entity name] DFAT sanctions consolidated list"
+- Also search for "[person/entity name] Australian sanctions"
+
+Screen ALL of the following:
+- The customer entity itself
+- All beneficial owners (individuals)
+- All customer representatives
+- Any parent entities or controlling entities
+
+**Report the results for each person/entity screened.** State the date of
+screening and whether a match was identified.
+
+The DFAT Consolidated List is maintained at:
 https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list
 
-The list is available as a downloadable XLSX file and is updated regularly. Use a
-current version at the time of screening.
+**If a match is found:** STOP. Inform the user immediately. The designated service
+must not be provided. The user must not deal with the person's or entity's assets.
+Advise the user to seek immediate legal advice and to notify the Australian
+Federal Police and the Australian Sanctions Office.
 
-**If a match is found:** STOP. Do not provide the service. Do not deal with assets.
-Seek immediate legal advice. Notify the Australian Federal Police and the Australian
-Sanctions Office.
+### 4C. PEP Screening
 
-### PEP Screening
+**Use web search now** to check whether any identified individual is a Politically
+Exposed Person (PEP). For each individual identified as a beneficial owner,
+director, or customer representative:
 
-Establish whether any identified person is a Politically Exposed Person (PEP):
+- Search for "[person name] politician" or "[person name] government"
+- Search for "[person name] [country] political" or "[person name] public office"
+- Check whether they hold or have recently held a prominent public position in a
+  government body or international organisation, or are a family member or close
+  associate of such a person
 
+PEP categories:
 - **Foreign PEP:** Mandatory enhanced CDD with senior management approval
 - **Domestic PEP:** Risk-based assessment
 - **International organisation PEP:** Risk-based assessment
 
-A PEP is an individual who holds a prominent public position in a government body
-or international organisation, or is a family member or close associate of such a
-person.
+### 4D. Adverse Media Check
 
-Screening methods: internet searches, commercial PEP databases (if available),
-information provided by the customer, professional judgement.
+**Use web search now** to check for adverse media relating to financial crime,
+fraud, money laundering, sanctions evasion, or terrorism financing for the
+customer entity and all identified beneficial owners:
 
-Use web search to check names against publicly available information.
+- Search for "[entity/person name] fraud" or "[entity/person name] money laundering"
+- Search for "[entity/person name] sanctions" or "[entity/person name] financial crime"
+
+Report any adverse media findings to the user. If adverse media is found, this
+may increase the ML/TF risk rating and trigger enhanced CDD.
+
+### 4E. Identity Verification for Individuals
+
+For individuals (beneficial owners, customer representatives), the user will need
+to verify identity using primary photographic ID (passport or driver's licence)
+either in person, via video call, or through a digital ID verification provider
+(e.g. Scantek, GreenID). This step must be completed by the user â€” it cannot be
+done through web search.
+
+**You do NOT need to keep copies of identity documents.** Record: what steps were
+taken, what identifying information was presented (e.g. passport number, issuing
+authority, expiry, name as shown), the date, and the outcome.
+
+### 4F. Compile Screening Results
+
+After completing all searches, present a summary:
+
+```
+VERIFICATION AND SCREENING RESULTS â€” [Client Name]
+Date: [Date]
+
+Entity verification:
+- [Entity name]: [Confirmed via ABN Lookup / ASIC / foreign register â€” details match / discrepancy noted]
+
+Sanctions screening (DFAT Consolidated List):
+- [Entity name]: No match identified
+- [Person 1 name]: No match identified
+- [Person 2 name]: No match identified
+
+PEP assessment:
+- [Person 1 name]: No PEP indicators identified
+- [Person 2 name]: No PEP indicators identified
+
+Adverse media:
+- [Entity/Person]: No adverse media identified / [Summary of findings]
+
+Individual identity verification:
+- [Person 1]: [Pending â€” user to verify via photo ID / Completed â€” passport verified on [date]]
+```
 
 ---
 
